@@ -19,8 +19,8 @@ const Header = () => {
       </p>
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <a
-          href="contact"
-          className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2"
+          href="#contact"
+          className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-black text-white "
         >
           contact me
           <Image src={assets.right_arrow_white} className="w-4" />
