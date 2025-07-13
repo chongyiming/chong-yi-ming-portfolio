@@ -4,7 +4,6 @@
   font-family: Outfit;
 } */
 :root {
-  --color-light-hover: #f0f0f0;
   --color-dark-hover: #1a1a1a;
   --color-dark-theme: #0d0d0d;
 
@@ -15,20 +14,16 @@
 /* body {
   font-family: var(--font-outfit);
 } */
-/* 
-.font-outfit {
+
+/* .font-outfit {
   font-family: var(--font-outfit);
 }
 
 .font-ovo {
   font-family: var(--font-ovo);
-}
+} */
 
-.text-light-hover {
-  color: var(--color-light-hover);
-}
-
-.bg-dark-hover {
+/* .bg-dark-hover {
   background-color: var(--color-dark-hover);
 }
 
