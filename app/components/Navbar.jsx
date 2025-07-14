@@ -27,7 +27,7 @@ const Navbar = () => {
         <Image src={assets.header_bg_color} className="w-full" />
       </div>
       <nav
-        className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 justify-center ${
+        className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 justify-end md:justify-center ${
           isScroll ? "bg-white/50 backdrop-blur-lg shadow-sm" : ""
         }`}
       >
@@ -42,9 +42,9 @@ const Navbar = () => {
           <li className="font-ovo">
             <a href="#about">About me</a>
           </li>
-          <li className="font-ovo">
+          {/* <li className="font-ovo">
             <a href="#services">Services</a>
-          </li>
+          </li> */}
           <li className="font-ovo">
             <a href="#work">My Work</a>
           </li>
@@ -69,9 +69,9 @@ const Navbar = () => {
           <li className="font-ovo" onClick={closeMenu}>
             <a href="#about">About me</a>
           </li>
-          <li className="font-ovo" onClick={closeMenu}>
+          {/* <li className="font-ovo" onClick={closeMenu}>
             <a href="#services">Services</a>
-          </li>
+          </li> */}
           <li className="font-ovo" onClick={closeMenu}>
             <a href="#work">My Work</a>
           </li>

@@ -50,7 +50,7 @@ const About = () => {
         >
           <p className="mb-10 max-w-2xl font-ovo">
             I am a Computer Science graduate majoring in Data Science (2022–2025
-            July) with a CGPA of 4.0. During my studies, I gained hands-on
+            July) with a CGPA of 3.685. During my studies, I gained hands-on
             experience as a software developer through internships and part-time
             work at Mayvenr Sdn Bhd, where I contributed to real-world projects
             and honed my technical skills.
