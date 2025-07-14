@@ -100,8 +100,8 @@ export const infoList = [
   {
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
-    title: "Projects",
-    description: "Built 3 projects",
+    title: "Frameworks",
+    description: "NextJS, Springboot, Flask",
   },
 ];
 
