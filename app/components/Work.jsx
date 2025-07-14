@@ -53,7 +53,7 @@ const Work = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.9 }}
-        className="grid grid-cols-1 lg:grid-cols-4 my-10 gap-5"
+        className="grid grid-cols-1 lg:grid-cols-3 my-10 gap-5"
       >
         {works.map((project, index) => {
           return (
@@ -65,7 +65,7 @@ const Work = () => {
               style={{ backgroundImage: `url(${project.bgImage})` }}
             >
               <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7 flex items-center justify-between duration-500 group-hover:bottom-7 border border-b">
-                <div>
+                <div className="max-w-[80%]">
                   <h2 className="font-semibold">{project.title}</h2>
                   <p className="text-sm text-gray-700">{project.description}</p>
                 </div>

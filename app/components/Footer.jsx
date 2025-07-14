@@ -18,12 +18,20 @@ const Footer = () => {
       <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">
         <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
           <li>
-            <a target="_blank" href="https://github.com/chongyiming">
+            <a
+              target="_blank"
+              href="https://github.com/chongyiming"
+              className="underline hover:text-blue-500 duration-500"
+            >
               Github
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://www.linkedin.com/in/chong-yi-ming">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/chong-yi-ming"
+              className="underline hover:text-blue-500 duration-500"
+            >
               LinkedIn
             </a>
           </li>
