@@ -27,13 +27,10 @@ const Navbar = () => {
         <Image src={assets.header_bg_color} className="w-full" />
       </div>
       <nav
-        className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 ${
+        className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 justify-center ${
           isScroll ? "bg-white/50 backdrop-blur-lg shadow-sm" : ""
         }`}
       >
-        <a href="#top">
-          <Image src={assets.logo} className="w-28 cursor-pointer mr-14" />
-        </a>
         <ul
           className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${
             isScroll ? "" : "bg-white/50 shadow-sm"
@@ -51,20 +48,8 @@ const Navbar = () => {
           <li className="font-ovo">
             <a href="#work">My Work</a>
           </li>
-          <li className="font-ovo">
-            <a href="#contact">Contact me</a>
-          </li>
         </ul>
         <div className="flex items-center gap-4">
-          <button>
-            <Image src={assets.moon_icon} className="w-6" />
-          </button>
-          <a
-            href="#contact"
-            className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-ovo"
-          >
-            Contact <Image src={assets.arrow_icon} className="w-3" />
-          </a>
           <button className="block md:hidden ml-3" onClick={openMenu}>
             <Image src={assets.menu_black} className="w-6" />
           </button>
@@ -89,9 +74,6 @@ const Navbar = () => {
           </li>
           <li className="font-ovo" onClick={closeMenu}>
             <a href="#work">My Work</a>
-          </li>
-          <li className="font-ovo" onClick={closeMenu}>
-            <a href="#contact">Contact me</a>
           </li>
         </ul>
       </nav>
