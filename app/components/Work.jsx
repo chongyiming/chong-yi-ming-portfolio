@@ -47,7 +47,7 @@ const Work = () => {
         transition={{ duration: 0.5, delay: 0.7 }}
         className="text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo"
       >
-        ...
+        A collection of my recent projects and internships/part time projects
       </motion.p>
       <motion.div
         initial={{ opacity: 0 }}

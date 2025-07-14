@@ -4,11 +4,14 @@
   font-family: Outfit;
 } */
 :root {
-  --color-dark-hover: #1a1a1a;
-  --color-dark-theme: #0d0d0d;
-
   --font-outfit: "Outfit", sans-serif;
   --font-ovo: "Ovo", serif;
+}
+.font-outfit {
+  font-family: var(--font-outfit);
+}
+.font-ovo {
+  font-family: var(--font-ovo);
 }
 
 /* body {

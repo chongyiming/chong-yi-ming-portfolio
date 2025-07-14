@@ -48,7 +48,7 @@ const About = () => {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="flex-1"
         >
-          <p className="mb-10 max-w-2xl font-ovo">
+          <p className="mb-10 max-w-2xl font-outfit">
             I am a Computer Science graduate majoring in Data Science (2022–2025
             July) with a CGPA of 3.685. During my studies, I gained hands-on
             experience as a software developer through internships and part-time
