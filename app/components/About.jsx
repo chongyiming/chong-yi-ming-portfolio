@@ -52,8 +52,16 @@ const About = () => {
             I am a Computer Science graduate majoring in Data Science (2022–2025
             July) with a CGPA of 3.685. During my studies, I gained hands-on
             experience as a software developer through internships and part-time
-            work at Mayvenr Sdn Bhd, where I contributed to real-world projects
-            and honed my technical skills.
+            work at{" "}
+            <a
+              target="_blank"
+              href="https://www.mayvenr.com/"
+              className="underline"
+            >
+              Mayvenr Sdn Bhd
+            </a>
+            , where I contributed to real-world projects and honed my technical
+            skills.
           </p>
           <motion.ul
             initial={{ opacity: 0 }}
